@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Guasa & Masasa!</title>
+    <link rel="stylesheet" href="app.css">
 </head>
 <body>
-    <h1>You want guasa. We give you masasa. And also guasasa.</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Enim, nihil fugit, nulla perferendis voluptatibus accusamus 
-        delectus eligendi nostrum debitis nam similique quidem, 
-        consequatur reiciendis corrupti. Praesentium maxime nobis 
-        officiis cumque!
-
-        Guasasa est!
-    </p>
-    
+    <svg viewBox="0 0 600 300">
+        <!-- Symbol-->
+        <symbol id="s-text">
+          <text text-anchor="middle" x="50%" y="50%" dy=".35em">Guasasa!</text>
+        </symbol>
+        <!-- Duplicate symbols-->
+        <use class="text" xlink:href="#s-text"></use>
+        <use class="text" xlink:href="#s-text"></use>
+        <use class="text" xlink:href="#s-text"></use>
+        <use class="text" xlink:href="#s-text"></use>
+        <use class="text" xlink:href="#s-text"></use>
+      </svg> 
 </body>
 </html>
